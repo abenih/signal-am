@@ -1,0 +1,13 @@
+# SEED lexicon — every term must be validated with EPHI/APHI + native speakers before external claims.
+
+syndrome: febrile_rash
+label_en: "Febrile rash illness (mpox / measles-like)"
+threshold: 3
+terms:
+  - {lang: en, term: "mpox", weight: 3, source: "seed"}
+  - {lang: en, term: "monkeypox", weight: 3, source: "seed"}
+  - {lang: en, term: "measles", weight: 2, source: "seed"}
+  - {lang: en, term: "skin lesions", weight: 2, source: "seed"}
+  - {lang: en, term: "fever and rash", weight: 2, source: "seed"}
+  - {lang: am, term: "ኩፍኝ", weight: 2, source: "seed"}
+  - {lang: om, term: "shiftoo", weight: 1, source: "seed"}

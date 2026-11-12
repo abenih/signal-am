@@ -1,0 +1,13 @@
+# SEED lexicon — every term must be validated with EPHI/APHI + native speakers before external claims.
+
+syndrome: unusual_deaths
+label_en: "Unusual / unexplained death cluster"
+threshold: 3
+terms:
+  - {lang: en, term: "sudden deaths", weight: 2, source: "seed"}
+  - {lang: en, term: "unexplained deaths", weight: 3, source: "seed"}
+  - {lang: en, term: "mysterious illness", weight: 2, source: "seed"}
+  - {lang: en, term: "outbreak", weight: 1, source: "seed"}
+  - {lang: am, term: "ወረርሽኝ", weight: 2, source: "seed"}
+  - {lang: am, term: "ድንገተኛ ሞት", weight: 2, source: "seed"}
+  - {lang: om, term: "du'a tasaa", weight: 2, source: "seed"}

@@ -1,0 +1,28 @@
+# Seed gazetteer — regions complete; place aliases are a starting set, to be
+# replaced by the official EPHI admin list during validation.
+regions:
+  - Tigray
+  - Afar
+  - Amhara
+  - Oromia
+  - Somali
+  - Benishangul-Gumuz
+  - Gambela
+  - Harari
+  - Sidama
+  - South West Ethiopia Peoples
+  - Central Ethiopia
+  - South Ethiopia
+  - Addis Ababa
+  - Dire Dawa
+places:
+  - {name: "Jinka", am: "ጂንካ", region: "South Ethiopia", zone: "South Omo", woreda: "Jinka"}
+  - {name: "Moyale", am: "ሞያሌ", region: "Oromia", zone: "Borena", woreda: "Moyale"}
+  - {name: "Bahir Dar", am: "ባሕር ዳር", region: "Amhara", zone: "Bahir Dar", woreda: "Bahir Dar"}
+  - {name: "Gondar", am: "ጎንደር", region: "Amhara", zone: "Central Gondar", woreda: "Gondar"}
+  - {name: "Mekelle", am: "መቀሌ", region: "Tigray", zone: "Mekelle", woreda: "Mekelle"}
+  - {name: "Hawassa", am: "ሐዋሳ", region: "Sidama", zone: "Hawassa", woreda: "Hawassa"}
+  - {name: "Adama", am: "አዳማ", region: "Oromia", zone: "East Shewa", woreda: "Adama"}
+  - {name: "Jimma", am: "ጅማ", region: "Oromia", zone: "Jimma", woreda: "Jimma"}
+  - {name: "Addis Ababa", am: "አዲስ አበባ", region: "Addis Ababa", zone: "Addis Ababa", woreda: "Addis Ababa"}
+  - {name: "Dire Dawa", am: "ድሬዳዋ", region: "Dire Dawa", zone: "Dire Dawa", woreda: "Dire Dawa"}

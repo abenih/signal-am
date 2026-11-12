@@ -1,0 +1,14 @@
+# SEED lexicon — every term must be validated with EPHI/APHI + native speakers before external claims.
+
+syndrome: cholera
+label_en: "Acute watery diarrhoea / cholera"
+threshold: 3
+terms:
+  - {lang: en, term: "cholera", weight: 3, source: "seed"}
+  - {lang: en, term: "watery diarrhoea", weight: 2, source: "seed"}
+  - {lang: en, term: "severe diarrhea", weight: 2, source: "seed"}
+  - {lang: en, term: "vomiting and diarrhoea", weight: 2, source: "seed"}
+  - {lang: am, term: "ኮሌራ", weight: 3, source: "seed"}
+  - {lang: am, term: "ተቅማጥ", weight: 2, source: "seed"}
+  - {lang: om, term: "koleeraa", weight: 3, source: "seed"}
+  - {lang: om, term: "baasaa", weight: 1, source: "seed"}

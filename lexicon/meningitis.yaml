@@ -1,0 +1,10 @@
+# SEED lexicon — every term must be validated with EPHI/APHI + native speakers before external claims.
+
+syndrome: meningitis
+label_en: "Meningitis-like illness"
+threshold: 3
+terms:
+  - {lang: en, term: "meningitis", weight: 3, source: "seed"}
+  - {lang: en, term: "neck stiffness", weight: 2, source: "seed"}
+  - {lang: en, term: "fever and convulsions", weight: 2, source: "seed"}
+  - {lang: am, term: "የአንጎል ሽፋን እብጠት", weight: 2, source: "seed"}
