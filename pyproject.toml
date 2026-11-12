@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signalam"
+version = "0.1.0"
+description = "Ethiopian-language epidemic-intelligence triage feeding ePHEM/EIOS, DHIS2 and FHIR"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.11"
+dependencies = ["PyYAML>=6"]
+
+[project.scripts]
+signalam = "signalam.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
